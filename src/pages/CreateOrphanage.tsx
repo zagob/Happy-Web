@@ -49,7 +49,7 @@ export default function CreateOrphanage() {
   }
 
   async function handleSubmit(event: FormEvent) {
-    event.preventDefault(); {/*Previnir o funcionamento padrão do formulario */}
+    event.preventDefault();
 
     const { latitude, longitude } = position;
 
